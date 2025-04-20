@@ -1,0 +1,72 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.balance, .list, .add, .chart {
+  margin: 20px 0;
+}
+
+.list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  background: #eee;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.plus {
+  border-left: 5px solid #28a745;
+}
+
+.minus {
+  border-left: 5px solid #dc3545;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #0056b3;
+}
+
+.chart {
+  max-width: 400px;
+  margin: 0 auto;
+}
